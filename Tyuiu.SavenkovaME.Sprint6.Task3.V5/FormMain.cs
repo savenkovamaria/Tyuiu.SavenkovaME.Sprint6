@@ -22,7 +22,23 @@ namespace Tyuiu.SavenkovaME.Sprint6.Task3.V5
                 { 19, -19, -13, 14, -20}, { 11, 30, -1, 26, 6 }, { 30, -15, -20, -5, 15 } };
         private void FormMain_Load(object sender, EventArgs e)
         {
-            
+            int rows = mtrx.GetUpperBound(0) + 1;
+            int columns = mtrx.GetUpperBound(1) + 1;
+            dataGridViewData_SME.RowCount = rows;
+            dataGridViewData_SME.ColumnCount = columns;
+
+            for (int i = 0; i < columns; i++)
+            {
+                dataGridViewData_SME.Columns[i].Width = 40;
+            }
+
+            for (int i = 0; i < rows; i++)
+            {
+                for (int j = 0; j < columns; j++)
+                {
+                    dataGridViewData_SME.Rows[i].Cells[j].Value = Convert.ToString(mtrx[i, j]);
+                }
+            }
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)
