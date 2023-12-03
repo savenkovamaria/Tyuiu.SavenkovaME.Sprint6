@@ -36,11 +36,11 @@ namespace Tyuiu.SavenkovaME.Sprint6.Task0.V20
             this.pictureBoxFormula_SME = new System.Windows.Forms.PictureBox();
             this.textBoxCondition_SME = new System.Windows.Forms.TextBox();
             this.groupBoxInfo_SME = new System.Windows.Forms.GroupBox();
+            this.textBoxVarX_SME = new System.Windows.Forms.TextBox();
             this.labelVarX_SME = new System.Windows.Forms.Label();
             this.groupBoxResult_SME = new System.Windows.Forms.GroupBox();
             this.labelResult_SME = new System.Windows.Forms.Label();
             this.textBoxResult_SME = new System.Windows.Forms.TextBox();
-            this.textBoxVarX_SME = new System.Windows.Forms.TextBox();
             this.groupBoxCondition_SME.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFormula_SME)).BeginInit();
             this.groupBoxInfo_SME.SuspendLayout();
@@ -118,6 +118,14 @@ namespace Tyuiu.SavenkovaME.Sprint6.Task0.V20
             this.groupBoxInfo_SME.TabStop = false;
             this.groupBoxInfo_SME.Text = "Ввод данных";
             // 
+            // textBoxVarX_SME
+            // 
+            this.textBoxVarX_SME.Location = new System.Drawing.Point(17, 58);
+            this.textBoxVarX_SME.Name = "textBoxVarX_SME";
+            this.textBoxVarX_SME.Size = new System.Drawing.Size(131, 27);
+            this.textBoxVarX_SME.TabIndex = 2;
+            this.textBoxVarX_SME.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxVarX_SME_KeyPress);
+            // 
             // labelVarX_SME
             // 
             this.labelVarX_SME.AutoSize = true;
@@ -159,14 +167,6 @@ namespace Tyuiu.SavenkovaME.Sprint6.Task0.V20
             this.textBoxResult_SME.Size = new System.Drawing.Size(151, 27);
             this.textBoxResult_SME.TabIndex = 0;
             // 
-            // textBoxVarX_SME
-            // 
-            this.textBoxVarX_SME.Location = new System.Drawing.Point(17, 58);
-            this.textBoxVarX_SME.Name = "textBoxVarX_SME";
-            this.textBoxVarX_SME.Size = new System.Drawing.Size(131, 27);
-            this.textBoxVarX_SME.TabIndex = 2;
-            this.textBoxVarX_SME.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxVarX_SME_KeyPress);
-            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -178,7 +178,8 @@ namespace Tyuiu.SavenkovaME.Sprint6.Task0.V20
             this.Controls.Add(this.buttonHelp_SME);
             this.Controls.Add(this.buttonDone_SME);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.MinimizeBox = false;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Спринт 6 | Таск 0 | Вариант 20 | Савенкова М. Е.";
