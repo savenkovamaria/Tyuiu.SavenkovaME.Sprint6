@@ -113,6 +113,7 @@ namespace Tyuiu.SavenkovaME.Sprint6.Task1.V22
             this.textBoxResult_SME.Location = new System.Drawing.Point(7, 51);
             this.textBoxResult_SME.Multiline = true;
             this.textBoxResult_SME.Name = "textBoxResult_SME";
+            this.textBoxResult_SME.ReadOnly = true;
             this.textBoxResult_SME.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.textBoxResult_SME.Size = new System.Drawing.Size(343, 369);
             this.textBoxResult_SME.TabIndex = 0;
