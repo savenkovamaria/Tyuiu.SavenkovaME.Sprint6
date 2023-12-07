@@ -31,7 +31,7 @@ namespace Tyuiu.SavenkovaME.Sprint6.Task1.V22
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.groupBoxCondition_SME = new System.Windows.Forms.GroupBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxTask_SME = new System.Windows.Forms.PictureBox();
             this.textBoxTask_SME = new System.Windows.Forms.TextBox();
             this.groupBoxResult_SME = new System.Windows.Forms.GroupBox();
             this.labelResult_SME = new System.Windows.Forms.Label();
@@ -44,14 +44,14 @@ namespace Tyuiu.SavenkovaME.Sprint6.Task1.V22
             this.buttonHelp_SME = new System.Windows.Forms.Button();
             this.buttonDone_SME = new System.Windows.Forms.Button();
             this.groupBoxCondition_SME.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxTask_SME)).BeginInit();
             this.groupBoxResult_SME.SuspendLayout();
             this.groupBoxData_SME.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBoxCondition_SME
             // 
-            this.groupBoxCondition_SME.Controls.Add(this.pictureBox1);
+            this.groupBoxCondition_SME.Controls.Add(this.pictureBoxTask_SME);
             this.groupBoxCondition_SME.Controls.Add(this.textBoxTask_SME);
             this.groupBoxCondition_SME.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.groupBoxCondition_SME.Location = new System.Drawing.Point(12, 12);
@@ -61,15 +61,15 @@ namespace Tyuiu.SavenkovaME.Sprint6.Task1.V22
             this.groupBoxCondition_SME.TabStop = false;
             this.groupBoxCondition_SME.Text = "Условие";
             // 
-            // pictureBox1
+            // pictureBoxTask_SME
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(6, 87);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(320, 43);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            this.pictureBoxTask_SME.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxTask_SME.Image")));
+            this.pictureBoxTask_SME.Location = new System.Drawing.Point(6, 87);
+            this.pictureBoxTask_SME.Name = "pictureBoxTask_SME";
+            this.pictureBoxTask_SME.Size = new System.Drawing.Size(320, 43);
+            this.pictureBoxTask_SME.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxTask_SME.TabIndex = 1;
+            this.pictureBoxTask_SME.TabStop = false;
             // 
             // textBoxTask_SME
             // 
@@ -206,7 +206,7 @@ namespace Tyuiu.SavenkovaME.Sprint6.Task1.V22
             this.Text = "Спринт 6 | Таск 1 | Вариант 22 | Савенкова М. Е.";
             this.groupBoxCondition_SME.ResumeLayout(false);
             this.groupBoxCondition_SME.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxTask_SME)).EndInit();
             this.groupBoxResult_SME.ResumeLayout(false);
             this.groupBoxResult_SME.PerformLayout();
             this.groupBoxData_SME.ResumeLayout(false);
@@ -223,7 +223,7 @@ namespace Tyuiu.SavenkovaME.Sprint6.Task1.V22
         private System.Windows.Forms.Button buttonHelp_SME;
         private System.Windows.Forms.Button buttonDone_SME;
         private System.Windows.Forms.TextBox textBoxTask_SME;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBoxTask_SME;
         private System.Windows.Forms.Label labelResult_SME;
         private System.Windows.Forms.TextBox textBoxResult_SME;
         private System.Windows.Forms.Label labelStop_SME;
