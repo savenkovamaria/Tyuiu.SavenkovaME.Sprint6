@@ -94,6 +94,7 @@ namespace Tyuiu.SavenkovaME.Sprint6.Task6.V14
             // buttonDone_SME
             // 
             this.buttonDone_SME.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonDone_SME.Enabled = false;
             this.buttonDone_SME.Image = ((System.Drawing.Image)(resources.GetObject("buttonDone_SME.Image")));
             this.buttonDone_SME.Location = new System.Drawing.Point(116, 12);
             this.buttonDone_SME.Name = "buttonDone_SME";
@@ -150,6 +151,8 @@ namespace Tyuiu.SavenkovaME.Sprint6.Task6.V14
             // 
             // textBoxFile_SME
             // 
+            this.textBoxFile_SME.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.textBoxFile_SME.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.textBoxFile_SME.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBoxFile_SME.Location = new System.Drawing.Point(13, 33);
@@ -185,6 +188,8 @@ namespace Tyuiu.SavenkovaME.Sprint6.Task6.V14
             // 
             // textBoxResult_SME
             // 
+            this.textBoxResult_SME.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBoxResult_SME.BackColor = System.Drawing.SystemColors.Control;
             this.textBoxResult_SME.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBoxResult_SME.Location = new System.Drawing.Point(12, 33);

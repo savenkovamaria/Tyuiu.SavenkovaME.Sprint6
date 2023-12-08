@@ -18,7 +18,7 @@ namespace Tyuiu.SavenkovaME.Sprint6.Task6.V14
         public FormMain()
         {
             InitializeComponent();
-            buttonDone_SME.Enabled = false;
+            
         }
         DataService ds = new DataService();
         string openpath;
