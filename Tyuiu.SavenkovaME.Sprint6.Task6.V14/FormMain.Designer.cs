@@ -32,6 +32,7 @@ namespace Tyuiu.SavenkovaME.Sprint6.Task6.V14
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.panelData_SME = new System.Windows.Forms.Panel();
+            this.buttonOpenFile_SME = new System.Windows.Forms.Button();
             this.buttonInfo_SME = new System.Windows.Forms.Button();
             this.buttonDone_SME = new System.Windows.Forms.Button();
             this.groupBoxData_SME = new System.Windows.Forms.GroupBox();
@@ -43,7 +44,6 @@ namespace Tyuiu.SavenkovaME.Sprint6.Task6.V14
             this.groupBoxOutPut_SME = new System.Windows.Forms.GroupBox();
             this.textBoxResult_SME = new System.Windows.Forms.TextBox();
             this.splitterWindows_SME = new System.Windows.Forms.Splitter();
-            this.buttonOpenFile_SME = new System.Windows.Forms.Button();
             this.openFileDialog_SME = new System.Windows.Forms.OpenFileDialog();
             this.toolTip_SME = new System.Windows.Forms.ToolTip(this.components);
             this.panelData_SME.SuspendLayout();
@@ -65,6 +65,18 @@ namespace Tyuiu.SavenkovaME.Sprint6.Task6.V14
             this.panelData_SME.Name = "panelData_SME";
             this.panelData_SME.Size = new System.Drawing.Size(1147, 188);
             this.panelData_SME.TabIndex = 0;
+            // 
+            // buttonOpenFile_SME
+            // 
+            this.buttonOpenFile_SME.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonOpenFile_SME.Image = ((System.Drawing.Image)(resources.GetObject("buttonOpenFile_SME.Image")));
+            this.buttonOpenFile_SME.Location = new System.Drawing.Point(12, 12);
+            this.buttonOpenFile_SME.Name = "buttonOpenFile_SME";
+            this.buttonOpenFile_SME.Size = new System.Drawing.Size(97, 71);
+            this.buttonOpenFile_SME.TabIndex = 2;
+            this.toolTip_SME.SetToolTip(this.buttonOpenFile_SME, "Открыть файл\r\nВыберите нужный файл для обработки");
+            this.buttonOpenFile_SME.UseVisualStyleBackColor = true;
+            this.buttonOpenFile_SME.Click += new System.EventHandler(this.buttonOpenFile_SME_Click);
             // 
             // buttonInfo_SME
             // 
@@ -138,14 +150,14 @@ namespace Tyuiu.SavenkovaME.Sprint6.Task6.V14
             // 
             // textBoxFile_SME
             // 
-            this.textBoxFile_SME.BackColor = System.Drawing.SystemColors.Control;
+            this.textBoxFile_SME.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.textBoxFile_SME.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxFile_SME.Location = new System.Drawing.Point(14, 33);
+            this.textBoxFile_SME.Location = new System.Drawing.Point(13, 33);
             this.textBoxFile_SME.Margin = new System.Windows.Forms.Padding(5, 3, 3, 3);
             this.textBoxFile_SME.Multiline = true;
             this.textBoxFile_SME.Name = "textBoxFile_SME";
             this.textBoxFile_SME.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBoxFile_SME.Size = new System.Drawing.Size(542, 362);
+            this.textBoxFile_SME.Size = new System.Drawing.Size(543, 362);
             this.textBoxFile_SME.TabIndex = 0;
             // 
             // panelResultFile_SME
@@ -189,18 +201,6 @@ namespace Tyuiu.SavenkovaME.Sprint6.Task6.V14
             this.splitterWindows_SME.Size = new System.Drawing.Size(3, 375);
             this.splitterWindows_SME.TabIndex = 0;
             this.splitterWindows_SME.TabStop = false;
-            // 
-            // buttonOpenFile_SME
-            // 
-            this.buttonOpenFile_SME.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonOpenFile_SME.Image = ((System.Drawing.Image)(resources.GetObject("buttonOpenFile_SME.Image")));
-            this.buttonOpenFile_SME.Location = new System.Drawing.Point(12, 12);
-            this.buttonOpenFile_SME.Name = "buttonOpenFile_SME";
-            this.buttonOpenFile_SME.Size = new System.Drawing.Size(97, 71);
-            this.buttonOpenFile_SME.TabIndex = 2;
-            this.toolTip_SME.SetToolTip(this.buttonOpenFile_SME, "Открыть файл\r\nВыберите нужный файл для обработки");
-            this.buttonOpenFile_SME.UseVisualStyleBackColor = true;
-            this.buttonOpenFile_SME.Click += new System.EventHandler(this.buttonOpenFile_SME_Click);
             // 
             // openFileDialog_SME
             // 

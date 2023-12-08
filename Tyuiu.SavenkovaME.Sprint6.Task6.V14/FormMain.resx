@@ -118,6 +118,38 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="buttonOpenFile_SME.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <metadata name="toolTip_SME.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>212, 17</value>
+  </metadata>
   <data name="buttonInfo_SME.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
@@ -189,38 +221,6 @@
     <value>Дан файл InPutFileTask6V14.txt который может находится в любом месте на диске. Загрузить файл в textBoxIn через openFileDialog. 
 Вывести слова в которых встречается z в результирующею строку и вывести ее в textBoxOut.</value>
   </data>
-  <data name="buttonOpenFile_SME.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-</value>
-  </data>
-  <metadata name="toolTip_SME.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>212, 17</value>
-  </metadata>
   <metadata name="openFileDialog_SME.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
